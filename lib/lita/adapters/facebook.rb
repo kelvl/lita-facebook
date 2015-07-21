@@ -4,8 +4,8 @@ require 'lita/adapters/facebook/rtm_connection'
 module Lita
   module Adapters
     class Facebook < Adapter
-      config :host, type: String, required: true
-      config :port, type: Integer, required: true
+      config :bridge_host, type: String, required: true
+      config :bridge_port, type: Integer, required: true
 
       def run
         return if rtm_connection

@@ -25,7 +25,7 @@ module Lita
           EventLoop.run do
             log.debug("Connecting to Facebook node server")
             @websocket = Faye::WebSocket::Client.new(
-              "ws://#{config.host}:#{config.port}"
+              "ws://#{config.bridge_host}:#{config.bridge_port}"
             )
 
             websocket.on(:open) { log.debug("Connected to Facebook node server") }
