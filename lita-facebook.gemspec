@@ -4,8 +4,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kelvin Law"]
   spec.email         = ["calvin18@gmail.com"]
   spec.description   = "Lita Adapter for NodeJS server"
-  spec.summary       = "Summary"
-  spec.homepage      = "Homepage"
+  spec.summary       = "Lita Adapter for NodeJS server"
+  spec.homepage      = "https://github.com/kelvl/lita-facebook"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "adapter" }
 
